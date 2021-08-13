@@ -1,0 +1,231 @@
+POST http://localhost:8080/wcbeantest/game_play_log
+Content-Type: application/json
+
+{}
+
+###
+POST http://localhost:8080/wcbeanasynctest/post_list_async_flux
+Content-Type: application/json
+
+{}
+
+###
+
+
+POST http://localhost:8080/wcbeanasynctest/post_list_async
+Content-Type: application/json
+
+{}
+
+###
+POST http://localhost:8080/wcbeantest/post_slow
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T145839.500.json
+<> 2021-08-04T145038.200.json
+<> 2021-08-04T144726.500.json
+
+###
+POST http://localhost:8080/cbbeantest/post_list_mono
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T150047.200.json
+<> 2021-08-04T115933.200.json
+
+###
+POST http://localhost:8080/cbannotest/post_list_mono
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T115300.200.json
+
+###
+DELETE http://localhost:8080/wcbeantest/delete
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T142816.200.txt
+
+###
+DELETE http://localhost:8080/wctest/delete
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T115056.200.txt
+<> 2021-08-04T115022.200.txt
+<> 2021-08-04T114610.200.txt
+
+###
+PUT http://localhost:8080/wcbeantest/put
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T142800.200.json
+
+###
+PUT http://localhost:8080/wctest/put
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T115156.200.json
+<> 2021-08-04T114534.200.json
+
+###
+POST http://localhost:8080/wcbeantest/post_list_by_mono_lazy
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T142748.200.json
+
+###
+POST http://localhost:8080/wctest/post_list_by_mono_lazy
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T115209.200.json
+<> 2021-08-04T114459.200.json
+
+###
+POST http://localhost:8080/wcbeantest/post_list_by_mono_block
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T142733.200.json
+
+###
+POST http://localhost:8080/wctest/post_list_by_mono_block
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T114333.200.json
+
+###
+POST http://localhost:8080/wcbeantest/post_flux
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T142720.200.json
+
+###
+POST http://localhost:8080/wctest/post_flux
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T114303.200.json
+
+###
+POST http://localhost:8080/wcbeantest/post_list_mono
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T142708.200.json
+<> 2021-08-04T142606.200.json
+
+###
+POST http://localhost:8080/wctest/post_list_mono
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T114233.200.json
+
+###
+POST http://localhost:8080/wcbeantest/post_object
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T142551.200.json
+
+###
+POST http://localhost:8080/wctest/post_object
+Content-Type: application/json
+
+{}
+
+<> 2021-08-04T114211.200.json
+
+###
+GET http://localhost:8080/wcbeantest/get_list_by_mono_lazy
+Accept: application/json
+
+<> 2021-08-04T142534.200.json
+
+###
+GET http://localhost:8080/wctest/get_list_by_mono_lazy
+Accept: application/json
+
+<> 2021-08-04T114120.200.json
+
+###
+GET http://localhost:8080/wcbeantest/get_list_by_mono_block
+Accept: application/json
+
+<> 2021-08-04T142520.200.json
+
+###
+GET http://localhost:8080/wctest/get_list_by_mono_block
+Accept: application/json
+
+<> 2021-08-04T141838.200.json
+<> 2021-08-04T114101.200.json
+
+###
+GET http://localhost:8080/wcbeantest/get_flux
+Accept: application/json
+
+<> 2021-08-04T142453.200.json
+
+###
+GET http://localhost:8080/wctest/get_flux
+Accept: application/json
+
+<> 2021-08-04T114035.200.json
+
+###
+GET http://localhost:8080/wcbeantest/get_list_mono_pool
+Accept: application/json
+
+###
+GET http://localhost:8080/wcbeantest/get_list_mono
+Accept: application/json
+
+<> 2021-08-04T142436.200.json
+
+###
+GET http://localhost:8080/wctest/get_list_mono
+Accept: application/json
+
+<> 2021-08-04T114013.200.json
+
+###
+GET http://localhost:8080/wcbeantest/get_object
+Accept: application/json
+
+<> 2021-08-04T142348.200.json
+
+###
+GET http://localhost:8080/wctest/get_object
+Accept: application/json
+
+<> 2021-08-04T141807.200.json
+<> 2021-08-04T113940.200.json
+
+
+###
